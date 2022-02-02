@@ -13,7 +13,8 @@ body {
 
 /* HEADER / CONTENT-1 */
 .header {
-    background-color: #1f2937;
+    background: url(../images/webbing-background-1.jpeg) no-repeat;
+    background-size: cover;
     color: white;
     padding: 0px 150px;
 }
@@ -21,7 +22,12 @@ body {
 .header-1 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 10px;
+}
+
+.header-1 img {
+    width: 150px;
 }
 
 .header-1 header {
@@ -32,16 +38,26 @@ body {
 .header ul {
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 20px;
     font-size: 18px;
-    color: #e5e7eb;
+    color: #ffffff;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
 }
 
 .content-1 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 70px 0px;
+    justify-content: center;
+    gap: 75px;
+    padding: 70px 40px;
+    margin: 20px 0px;
+    background: rgb(255, 255, 255, 0.4);
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 20px 1px #ffffff;
 }
 
 .header-content {
@@ -51,7 +67,7 @@ body {
 .header-content h1 {
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8;
+    color: #003391;
 }
 
 .header-content p {
@@ -69,16 +85,21 @@ body {
 }
 
 .content-1 img {
-    height: 200px;
+    height: 300px;
     width: 500px;
+    box-shadow: 20px 20px 60px 10px black;
 }
 
 /* CONTENT 2 */
+.content-2 {
+    background-color: #030303;
+}
+
 .content-2 h3 {
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937;
+    color: #b10606;
     padding: 30px;
 }
 
@@ -92,15 +113,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 145px;
+    background: rgb(255, 255, 255, 0.2);
+    border-radius: 15px;
+    width: 170px;
     text-align: center;
-    padding-bottom: 75px;
+    padding: 25px;
+    margin-bottom: 30px;
+    color: white;
 }
 
-.box {
+.box img {
     height: 145px;
     width: 145px;
-    border: blue 2px solid;
+    border: rgb(168, 24, 24) 3px solid;
     border-radius: 10px;
     margin-bottom: 5px;
 }
@@ -108,7 +133,8 @@ body {
 /* CONTENT-3 */
 .content-3 {
     background-color: #e5e7eb;
-    padding: 75px 260px;
+    padding: 125px 260px 35px;
+    box-shadow: inset 0px 50px 20px -20px #030303;
 }
 
 .content-3 em {
@@ -121,15 +147,20 @@ body {
 }
 
 /* CONTENT-4 */
+.content-4-container {
+    background-color: rgb(1, 17, 167);
+    box-shadow: inset -20px 100px 40px -40px #e5e7eb;
+}
+
 .content-4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3882f6;
+    background: url(../images/webbing-background.jpeg);
     color: white;
-    margin: 60px 125px;
+    margin: 100px 125px 70px;
     padding: 30px 100px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .content-description p {
@@ -147,7 +178,7 @@ body {
 
 /* FOOTER */
 .footer {
-    background-color: #1f2937;
+    background-color: black;
     text-align: center;
     color: white;
     padding: 20px 0px;
